@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Oswald:wght@600&display=swap");
+/*================================================Nav Bar================================================*/
+.navbar-light {
+  background: rgba(233, 233, 233, 0) !important;
+  /*opacity = 0*/
+  /*background-position: 0;*/ }
+  @media (max-width: 320px) {
+    .navbar-light .navbar-brand .logo {
+      width: 200px; } }
+  .navbar-light .nav-link {
+    color: black !important;
+    font-family: 'Oswald', sans-serif; }
+
+/*<!--=====================================We Design and Develop======================================-->*/
+.jumbotron-fluid {
+  background-image: url("../Image/white_image.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  min-height: 600px;
+  /* background: #e9e9e9 !important;*/
+  margin-bottom: 0px; }
+  .jumbotron-fluid .container .display-4 {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 165px; }
+  .jumbotron-fluid .container .float-right {
+    text-align: -webkit-left; }
+  .jumbotron-fluid .container .btn-success {
+    color: #ffffff;
+    background: #10c9c3; }
+
+/*==============================================About US=================================================*/
+.jumbotron {
+  background: white;
+  text-align: center;
+  height: 420px; }
+  .jumbotron .display-4 {
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px; }
+
+/*==============================================Our goal=================================================*/
+#quality {
+  height: 570px;
+  width: 100%;
+  background-image: url("../Image/white_image.jpg"); }
+  #quality .row {
+    margin: 0;
+    padding-top: 170px; }
+    #quality .row .colOne .container {
+      padding-left: 60px; }
+      #quality .row .colOne .container .ourGoal {
+        margin-top: 25px; }
+      #quality .row .colOne .container .colOneP {
+        padding-top: 20px; }
+      #quality .row .colOne .container .progress {
+        height: 7px;
+        width: 90%; }
+        #quality .row .colOne .container .progress .bg-success {
+          background-color: #10c9c3 !important; }
+
+/*<!--============================================icon=================================================-->*/
+#icon .row {
+  margin: 0; }
+  #icon .row .col-md-4 {
+    background: #10c9c3;
+    height: 240px; }
+    #icon .row .col-md-4 .lineOne {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #ffffff;
+      transform: translate(-50%, 105%); }
+    #icon .row .col-md-4 .lineTwo {
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-95%, 200%); }
+    #icon .row .col-md-4 .grid1 {
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 200%); }
+    #icon .row .col-md-4 .fontawsomeicon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #icon .row .col-md-4 .fa-clock:before {
+      color: white;
+      font-size: 40px; }
+    #icon .row .col-md-4 .fa-star:before {
+      color: white;
+      font-size: 40px; }
+    #icon .row .col-md-4 .fa-hand-holding-heart:before {
+      color: white;
+      font-size: 40px; }
+
+/*<!--=======================================Four Image Grid===========================================-->*/
+#fourImageGrid .row {
+  margin: 0; }
+  #fourImageGrid .row .col-md-3 {
+    padding: 0;
+    width: 100%;
+    height: 300px; }
+    #fourImageGrid .row .col-md-3 .fourGridImage {
+      width: 100%;
+      height: 100%; }
+
+/*<!--==========================================Video Add==============================================-->*/
+#video .container .row {
+  margin: 0;
+  padding: 200px 0 200px 0; }
+  #video .container .row .videoLink {
+    width: 1110px;
+    height: 500px; }
+
+/*<!--===========================================Sliders================================================-->*/
+#sliders #carouselExampleIndicators .carousel-inner .carousel-item .w-100 {
+  height: 500px; }
+
+/*<!--=========================================== form =================================================-->*/
+#form .form-row {
+  margin: 0;
+  padding-top: 20px; }
+  #form .form-row .col-md-3 {
+    padding-top: 20px; }
+#form .form-group {
+  padding-top: 20px; }
+  #form .form-group .text-area {
+    padding: 5px; }
+
+/*<!--=========================================== footer =================================================-->*/
+#footer .container .foot {
+  margin-top: 20px;
+  background: #000000;
+  color: #fff;
+  text-align: center; }
+
+#socialMedia {
+  background-color: #10c9c3; }
+  #socialMedia .section-heading {
+    color: white;
+    padding: 30px 0px 30px 100px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; }
+  #socialMedia .row .col {
+    padding-bottom: 40px; }
+    #socialMedia .row .col .lineOne {
+      padding-left: 130px; }
+    #socialMedia .row .col .fa-facebook:before {
+      font-size: 100px;
+      color: #3349b5; }
+    #socialMedia .row .col .fa-google-plus:before {
+      color: #e2141d;
+      font-size: 100px; }
+    #socialMedia .row .col .fa-mobile-alt:before {
+      font-size: 100px;
+      color: #a92f9f; }
+
+/*# sourceMappingURL=style.css.map */
